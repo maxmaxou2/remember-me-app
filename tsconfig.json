@@ -5,7 +5,7 @@
         "lib": [
             "esnext"
         ],
-        "jsx": "react",
+        "jsx": "react-jsx",
         "moduleResolution": "node",
         "allowJs": true,
         "skipLibCheck": true,

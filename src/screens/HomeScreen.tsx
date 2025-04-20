@@ -50,8 +50,8 @@ export default function HomeScreen() {
                 )}
             />
 
-            <View className="mt-6 space-y-3">
-                <TouchableOpacity className="bg-blue-900 flex-row items-center justify-center py-4 rounded-2xl">
+            <View className="mt-6">
+                <TouchableOpacity className="bg-blue-900 flex-row items-center justify-center py-4 rounded-2xl mb-3">
                     <Ionicons name="book-outline" size={20} color="white" className="mr-2" />
                     <Text className="text-white font-semibold text-base">Résumé of Life</Text>
                 </TouchableOpacity>

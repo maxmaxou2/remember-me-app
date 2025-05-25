@@ -1,7 +1,8 @@
 import axios from 'axios';
+import { API_BASE_URL } from '@env';
 
 const api = axios.create({
-    baseURL: 'https://your-api.com/api',
+    baseURL: API_BASE_URL,
     timeout: 10000,
 });
 
